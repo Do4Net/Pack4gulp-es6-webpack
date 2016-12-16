@@ -3,8 +3,7 @@ import fs from 'fs';
 module.exports = {
 	entry: getModuleEntry("./target"), 
 	entry: {
-	   	  uploadFile:"./target/uploadfile/index.js",
-	     // main: './target/main/index.js'
+	   	  main:"./target/page/index.js"
 	      },
 	output: {
 		path: path.join(__dirname, 'dist'),
