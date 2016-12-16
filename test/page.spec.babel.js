@@ -9,6 +9,7 @@ describe('the zoo module', () => {
 		expect(dog.bark()).to.equal('Sherlock: woof, woof!');
 	});
 
+
 	it('should instantiate a husky dog', () => {
 		var dog = new Dog('Whisky', 'husky');
 		expect(dog.bark()).to.equal('Whisky: woooooow!');
